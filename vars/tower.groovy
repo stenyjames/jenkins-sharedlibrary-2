@@ -8,5 +8,5 @@ def launchJob(body) {
   echo "The job param: ${config.param}"
    
    sh "ansible -i hosts localhost -m shell -a \"ls -al\"   "
-"
+
 }
