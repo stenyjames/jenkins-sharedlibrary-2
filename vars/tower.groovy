@@ -4,6 +4,6 @@ def launchJob(body) {
     body.delegate = config
     body()
   
-  echo "Launching job nme : ${config.name}"
-  echo "Launching job nme : ${config.param}"
+  echo "The job name : ${config.name}"
+  echo "The job param: ${config.param}"
 }
