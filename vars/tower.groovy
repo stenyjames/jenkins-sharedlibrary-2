@@ -6,4 +6,6 @@ def launchJob(body) {
   
   echo "The job name : ${config.name}"
   echo "The job param: ${config.param}"
+   
+   sh "ansible --version"
 }
